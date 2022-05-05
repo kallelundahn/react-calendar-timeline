@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres (more or less) to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
+## 0.28.0
 
 * Add unit argument to onZoom and onTimeChange callbacks
 * Add `className` prop to Timeline component to override `react-calendar-timeline` class #682
