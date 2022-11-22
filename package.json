@@ -10,7 +10,7 @@
     "lint": "eslint --ext .js --ext .jsx ./src",
     "lint:fix": "prettier-eslint --parser babylon --write \"src/**/*.js\"",
     "prepublish": "npm run build:lib",
-    "postinstall": "npm install && npm run build:lib",
+    "postinstall": "npm run build:lib",
     "start": "webpack-dev-server --hot --host 0.0.0.0 --display-modules",
     "test": "jest",
     "test:watch": "jest --watch"
@@ -97,7 +97,9 @@
     "create-react-context": "^0.3.0",
     "element-resize-detector": "^1.1.12",
     "lodash.isequal": "^4.5.0",
-    "memoize-one": "^5.1.1"
+    "memoize-one": "^5.1.1",
+    "cross-env": "^5.1.4",
+    "node-sass": "^4.14.0"
   },
   "peerDependencies": {
     "interactjs": "^1.3.4",
